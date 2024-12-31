@@ -13,3 +13,13 @@ You need to implement the following list of instructions:
 ADD, LUI, ORI, XOR, SRAI
 LB, LW, SB, SW
 BEQ, JAL
+
+
+Code:
+The entry point of your project is “cpusim.cpp”. The program should run like this: 
+“./cpusim <inputfile.txt>”, 
+and print the value of a0 and a1 in the terminal:
+					“(a0,a1)”   {no space}
+(for example, if a0=10, and a1= -8, then you should print (10,-8). You should use exactly this format, otherwise, our automated tests cannot evaluate your code.)
+
+It is your choice how you want to structure your code (e.g., whether you want to have separate objects for each class, or you want to instantiate an object within another class, or even not use any class at all and utilize functions and structs, etc.). Our main suggestion is to use a separate function/class/struct for each unit. 
